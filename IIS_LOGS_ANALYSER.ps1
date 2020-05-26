@@ -35,7 +35,7 @@
 [CmdletBinding()]
 Param(
 
-    [Parameter(Mandatory = $true, HelpMessage = "Bitte die letzten x Zeilen angeben. z.B. 30")]
+    [Parameter(Mandatory = $false, HelpMessage = "Bitte die letzten x Zeilen angeben. z.B. 30")]
     [ValidateNotNullorEmpty()] [string] $rows,
 
     [Parameter(Mandatory = $false, HelpMessage = "Bitte den Pfad der Log-Datei angeben")]
@@ -67,6 +67,13 @@ Param(
 
 
 Clear-Host
+
+if (!$rows) {
+
+    $rows = "30"
+
+}
+
 
 
 if (!$filepath){
