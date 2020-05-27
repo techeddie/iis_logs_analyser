@@ -30,6 +30,8 @@
     .\Parse_IIS_Logs.ps1 -zeilen 30 -filepath "C:\inetpub\logs\LogFiles\W3SVC1\u_ex200419.log" -httpcode 401 -outgridview $true
     .\Parse_IIS_Logs.ps1 -zeilen 30 -filepath "C:\inetpub\logs\LogFiles\W3SVC1\u_ex200419.log" -sourceip 70.60.50.240 -outgridview $true
 
+    todo: switch 7 und bearbeiten
+
 ############################################>
 
 [CmdletBinding()]
