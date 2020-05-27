@@ -1,4 +1,7 @@
 # iis_logs_analyser
-Analyse IIS Logs easyly
+Analyse IIS Logs easily
 
-To add: user and service
+![alt text](https://exchangeblogonline.de/wp-content/uploads/2020/05/iislogs.png)
+
+Best Regards Eddie
+Blog: https://exchangeblogonline.de/
